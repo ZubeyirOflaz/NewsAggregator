@@ -1,0 +1,25 @@
+.box.box-solid.box-primary>.box-header {
+  color:#fff;
+  background:#000000 
+                    }
+
+.box.box-solid.box-primary{
+border-bottom-color:#000000;
+border-left-color:#000000;
+border-right-color:#000000;
+border-top-color:#000000;
+}                                   
+
+
+
+.box.box-solid.box-success>.box-header {
+  color:#fff;
+  background:#333e48 
+                    }
+
+.box.box-solid.box-success{
+border-bottom-color:#333e48;
+border-left-color:#333e48;
+border-right-color:#333e48;
+border-top-color:#333e48;
+}

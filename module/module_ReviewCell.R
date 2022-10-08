@@ -74,7 +74,7 @@ uiOutput(ns("sources"))
                  
                  
                  actionGroupButtons(inputIds = c(ns("examplary"), ns("clickbait"), ns("shoddy"), ns("malignant")),
-                                    labels = c("Examplary","Clickbait", "Shoddy", "Malignant"),
+                                    labels = c("Examplary","Clickbait", "Sloppy", "Malicious"),
                                     status = "primary",fullwidth = TRUE),
                  br(),
                  br()

@@ -1,9 +1,22 @@
-# NewsAggregator
+
+# News Aggregator
+<p align="center">
+<img src="docs/Start.png" alt="plot" width="900">
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/github/license/ZubeyirOflaz/NewsAggregator" alt="plot" width="100">       <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" alt="plot" width="85">
+</p>
+
 News Aggregator is n R/Shiny app that gathers news articles on specified topics from multiple sources and presents all this information in an easily browsable and digestible format. This enables staying informed on the chosen topics easier and quicker.
 ## Features:
 The articles are retrieved using RSS feeds and REST APIs and are arranged into specified categories and subcategories. For major news categories from Google News, it is possible to see and compare news articles from different organizations about the same news topic together. This gives the ability to easily analyze the presentation of the same topic from different sources.
 
-The review functionality lets the user mark and records a specific news article in different categories (exemplary, clickbait, sloppy and malicious). This lets the user keep track of the quality of a given news source. Several news categories also contain an overview page. This overview page lets the user see the number of news pieces per source as well as the keywords used in articles in order to see the level of variability in organizations displayed by Google News. The keyword analysis and visualization located on this page let the user get a sense of which topics are being presented and with which frequency.
+The review functionality lets the user mark and records a specific news article in different categories (exemplary, clickbait, sloppy and malicious). This lets the user keep track of the quality of a given news source. 
+<p align="center">
+<img src="docs/Overview.png" alt="plot" width="900">
+</p>
+Several news categories also contain an overview page. This overview page lets the user see the number of news pieces per source as well as the keywords used in articles in order to see the level of variability in organizations displayed by Google News. The keyword analysis and visualization located on this page let the user get a sense of which topics are being presented and with which frequency.
 
 In addition to the core functionalities mentioned above the app also enables the custom search of given topic(s) via Google News search located in the left-handbar or via importing an XLSX file (an example of this is added with the file name TestSources.xlsx in the data folder) with news sources saved. Additionally, the search frequency, location and related searches can be seen fromGoogle Trends using the related search bar.
 ## Dependencies: 

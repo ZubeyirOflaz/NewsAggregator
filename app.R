@@ -145,7 +145,7 @@ server = function(input, output,session) {
 ####Customization of elements according to the theme selection made######
 o <- observe({ html = show_waiter(tagList(
   spin_double_bounce(),
-  span("Hello Zubeyir", style = "color:white;"),
+  span("News Aggregator", style = "color:white;"),
   br(),
   span("Query, Queue, Repeat", style = "color:white;")),logo = "Soul_of_a_Seasoned_Warrior.png")
   

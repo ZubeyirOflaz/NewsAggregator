@@ -10,9 +10,11 @@
 
 News Aggregator is n R/Shiny app that gathers news articles on specified topics from multiple sources and presents all this information in an easily browsable and digestible format. This enables staying informed on the chosen topics easier and quicker.
 ## Features:
-The articles are retrieved using RSS feeds and REST APIs and are arranged into specified categories and subcategories. For major news categories from Google News, it is possible to see and compare news articles from different organizations about the same news topic together. This gives the ability to easily analyze the presentation of the same topic from different sources.
-
-The review functionality lets the user mark and records a specific news article in different categories (exemplary, clickbait, sloppy and malicious). This lets the user keep track of the quality of a given news source. 
+The articles are retrieved using RSS feeds and REST APIs and are arranged into specified categories and subcategories. For major news categories from Google News, it is possible to see and compare news articles from different organizations about the same news topic together. 
+<p align="left">
+<img src="docs/Review.gif" alt="plot" width="450">
+</p>
+This gives the ability to easily analyze the presentation of the same topic from different sources.The review functionality lets the user mark and records a specific news article in different categories (exemplary, clickbait, sloppy and malicious). This lets the user keep track of the quality of a given news source. 
 <p align="center">
 <img src="docs/Overview.png" alt="plot" width="900">
 </p>

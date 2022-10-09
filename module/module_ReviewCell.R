@@ -47,8 +47,8 @@ uiOutput(ns("sources"))
         tags$head(
           tags$style(HTML('#examplary{background-color:#333e48}')),
           tags$style(HTML('#clickbait{background-color:#333e48}')),
-          tags$style(HTML('#shoddy{background-color:#333e48}')),
-          tags$style(HTML('#malignant{background-color:#333e48}'))
+          tags$style(HTML('#sloppy{background-color:#333e48}')),
+          tags$style(HTML('#malicious{background-color:#333e48}'))
         ),
         br(),
         fluidRow(
@@ -73,7 +73,7 @@ uiOutput(ns("sources"))
           column(width = 4,
                  
                  
-                 actionGroupButtons(inputIds = c(ns("examplary"), ns("clickbait"), ns("shoddy"), ns("malignant")),
+                 actionGroupButtons(inputIds = c(ns("exemplary"), ns("clickbait"), ns("sloppy"), ns("malicious")),
                                     labels = c("Examplary","Clickbait", "Sloppy", "Malicious"),
                                     status = "primary",fullwidth = TRUE),
                  br(),
@@ -85,7 +85,7 @@ uiOutput(ns("sources"))
     ))
     
 ####Confirmations of users decision    
-    observeEvent(input$examplary,{
+    observeEvent(input$exemplary,{
       confirmSweetAlert(session,inputId = ns("conf1"),
                         title = "Confirm Decision",
                         type = "info",
@@ -99,14 +99,14 @@ uiOutput(ns("sources"))
                         closeOnClickOutside = TRUE,
                         text = confirmationNotice(input$domains,"clickbait"))
     },ignoreInit = TRUE)
-    observeEvent(input$shoddy,{
+    observeEvent(input$sloppy,{
       confirmSweetAlert(session,inputId = ns("conf3"),
                         title = "Confirm Decision",
                         type = "warning",
                         closeOnClickOutside = TRUE,
                         text = confirmationNotice(input$domains,"bad reporting"))
     },ignoreInit = TRUE)
-    observeEvent(input$malignant,{
+    observeEvent(input$malicious,{
       confirmSweetAlert(session,inputId = ns("conf4"),
                         title = "Confirm Decision",
                         danger_mode = TRUE,
